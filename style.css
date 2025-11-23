@@ -86,3 +86,14 @@ th, td {
   border: solid 1px #f0f0f0;
   padding: 0.5rem;
 }
+
+/* iframe（埋め込み動画など）が画面より大きくならないようにする */
+iframe {
+  max-width: 100%;
+}
+
+.profile-icon {
+  border-radius: 50%; /* これで丸くなります */
+  object-fit: cover;  /* 画像が縦長・横長でも綺麗に真ん中で切り抜く */
+  border: solid 4px var(--theme-color); /* テーマカラーの枠線をつけるとおしゃれ */
+}
