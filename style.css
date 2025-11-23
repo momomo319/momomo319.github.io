@@ -5,6 +5,7 @@
 :root {
   --theme-color: #ffd700;
   --text-color: #333;
+  --link-color: #d4ac0d;
 }
 
 * {
@@ -36,7 +37,7 @@ h1, h2, h3 {
 -------------------- */
 
 a {
-  color: var(--theme-color);
+  color: var(--link-color);
   text-decoration: none;
 }
 
@@ -55,7 +56,7 @@ ul {
 li:before {
   content: "・";
   color: var(--text-color);
-　font-weight: bold; /* 太くして強調する */
+  font-weight: bold; /* 太くして強調する */
 }
 
 /* --------------------
