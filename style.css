@@ -49,11 +49,20 @@ a:hover {
 -------------------- */
 
 ul {
-  list-style: none;
+  list-style: none; /* 点を消す */
+  padding-left: 0;
 }
+
+li {
+  /* 左側に太さ4pxの黄色の線を引く */
+  border-left: solid 4px var(--theme-color); 
+  padding-left: 10px; /* 線と文字の間隔をあける */
+  margin-bottom: 5px; /* 行間を少しあける */
+}
+
+/* 点（・）の設定は削除する */
 li:before {
-  content: "・";
-  color: var(--text-color);
+  content: none; 
 }
 
 /* --------------------
