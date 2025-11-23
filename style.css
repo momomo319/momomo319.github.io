@@ -53,7 +53,7 @@ ul {
 }
 li:before {
   content: "・";
-  color: var(--theme-color);
+  color: var(--text-color);
 }
 
 /* --------------------
