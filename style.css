@@ -18,6 +18,8 @@ html, body {
 }
 
 body {
+  width: 100%;
+  min-height: 100%;
   margin: 0;
   padding: 30px 30px 50px 30px;
   color: #333;
